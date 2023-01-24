@@ -12,18 +12,21 @@ chardet==5.1.0
 charset-normalizer==3.0.1
 click==8.1.3
 comm==0.1.2
+contourpy==1.0.7
 cookiecutter==2.1.1
 cookiecutter-data-science @ git+https://github.com/drivendata/cookiecutter-data-science@b4c0c12243653c493c188239af14c835b9768fbc
+cycler==0.11.0
 debugpy==1.6.5
 decorator==5.1.1
 distlib==0.3.6
--e git+ssh://git@github.com/smb-h/dogs-vs-cats-kaggle.git@fd22b4bbfb36bc581068333dd4c08aa21f69453e#egg=dogs_vs_cats
+-e git+ssh://git@github.com/smb-h/dogs-vs-cats-kaggle.git@9a18ff4ae2a6cf65c9915f9ddfe05ad244729974#egg=dogs_vs_cats
 entrypoints==0.4
 executing==1.2.0
 fastjsonschema==2.16.2
 filelock==3.9.0
 flake8==6.0.0
 flatbuffers==23.1.4
+fonttools==4.38.0
 gast==0.4.0
 google-auth==2.16.0
 google-auth-oauthlib==0.4.6
@@ -41,9 +44,11 @@ jsonschema==4.17.3
 jupyter_client==7.4.9
 jupyter_core==5.1.3
 keras==2.11.0
+kiwisolver==1.4.4
 libclang==15.0.6.1
 Markdown==3.4.1
 MarkupSafe==2.1.2
+matplotlib==3.6.3
 matplotlib-inline==0.1.6
 mccabe==0.7.0
 mypy-extensions==0.4.3
@@ -59,6 +64,7 @@ pathspec==0.10.3
 pbr==5.11.1
 pexpect==4.8.0
 pickleshare==0.7.5
+Pillow==9.4.0
 platformdirs==2.6.2
 plotly==5.12.0
 prompt-toolkit==3.0.36
@@ -71,6 +77,7 @@ pyasn1-modules==0.2.8
 pycodestyle==2.10.0
 pyflakes==3.0.1
 Pygments==2.14.0
+pyparsing==3.0.9
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-dotenv==0.21.1
